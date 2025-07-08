@@ -13,61 +13,62 @@ import FontAwesome from "@expo/vector-icons/FontAwesome";
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import Entypo from "@expo/vector-icons/Entypo";
 import Feather from '@expo/vector-icons/Feather';
+import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 
-export default function Cadastro({ navigation }) {
+export default function Endereco( { navigation }) {
   return (
-    <View style={estilos.container2}>
-      <Text style={estilos.text}>Cadastro</Text>
+    <View style={estilos.container}>
+      <Text style={estilos.text}>Endereço</Text>
       <View style={estilos.containerInput}>
-        <FontAwesome5 name="user-alt" size={18} color="#0468BF" />
+        <MaterialIcons name="add-location-alt" size={22} color="#0468BF" />
         <TextInput
-          placeholder="Nome"
+          placeholder="Rua"
           placeholderTextColor={"#000000"}
         ></TextInput>
       </View>
+
       <View style={estilos.containerInput}>
         <MaterialIcons name="email" size={20} color="#0468BF" />
         <TextInput
-          placeholder="Email"
+          placeholder="Número"
           placeholderTextColor={"#000000"}
         ></TextInput>
       </View>
 
       <View style={estilos.containerInput}>
-        <FontAwesome5 name="lock" size={18} color="#0468BF" />
+        <Entypo name="home" size={20} color="#0468BF" />
         <TextInput
-          placeholder="Senha"
+          placeholder="Bairro"
           placeholderTextColor={"#000000"}
         ></TextInput>
       </View>
 
       <View style={estilos.containerInput}>
-        <FontAwesome5 name="phone-alt" size={20} color="#0468BF" />
+        <FontAwesome6 name="map-location-dot" size={20} color="#0468BF" />
         <TextInput
-          placeholder="Telefone"
+          placeholder="CEP"
           placeholderTextColor={"#000000"}
         ></TextInput>
       </View>
 
       <View style={estilos.containerInput}>
-        <FontAwesome name="vcard" size={20} color="#0468BF" />
+        <MaterialCommunityIcons name="city" size={24} color="#0468BF" />
         <TextInput
-          placeholder="CPF"
+          placeholder="Cidade"
           placeholderTextColor={"#000000"}
         ></TextInput>
       </View>
 
       <View style={estilos.containerInput}>
-        <MaterialIcons name="work" size={22} color="#0468BF" />
+        <Entypo name="location" size={20} color="#0468BF" />
         <TextInput
-          placeholder="CNPJ"
+          placeholder="Estado"
           placeholderTextColor={"#000000"}
         ></TextInput>
       </View>
 
-      <Pressable style={estilos.button} onPress={() => navigation.navigate("Endereco")}>
-        <Text style={estilos.buttonText}>Continuar </Text>
-        <Feather name="arrow-right" size={25} color="#FFFFFF" />
+      <Pressable style={estilos.button} onPress={() => navigation.navigate("Home")}>
+        <Text style={estilos.buttonText}>Confirmar </Text>
       </Pressable>
       <View style={estilos.bolaAzul1}></View>
       <View style={estilos.bolaAzul2}></View>
