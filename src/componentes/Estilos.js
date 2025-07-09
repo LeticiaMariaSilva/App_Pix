@@ -4,7 +4,9 @@ import { Button } from "react-native-paper";
 const estilos = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: "#FFFFFF",
     padding: 20,
+    paddingTop: 100,
   },
   text: {
     fontSize: 30,
@@ -59,7 +61,7 @@ const estilos = StyleSheet.create({
     justifyContent: "space-between",
   },
   bolaAzul1: {
-    top: 47,
+    top: 150,
     left: -50,
     width: 100,
     height: 100,
@@ -68,7 +70,7 @@ const estilos = StyleSheet.create({
     opacity: 0.6,
   },
   bolaAzul2: {
-    top: -70,
+    top: 10,
     right: -220,
     width: 150,
     height: 150,
@@ -163,12 +165,12 @@ const estilos = StyleSheet.create({
     width: 300,
     marginLeft: 30,
     marginTop: 20,
-     borderRadius: 16,
-     padding: 16,
-     marginBottom: 16,
-     borderWidth: 2,
-      borderColor: "#0468BF",
-      backgroundColor: "#FFFFFF",
+    borderRadius: 16,
+    padding: 16,
+    marginBottom: 16,
+    borderWidth: 2,
+    borderColor: "#0468BF",
+    backgroundColor: "#FFFFFF",
   },
   translacoesTitulo: {
     fontSize: 18,
@@ -177,15 +179,15 @@ const estilos = StyleSheet.create({
     marginBottom: 16,
   },
   translacoesDias: {
-    marginBottom: 16
+    marginBottom: 16,
   },
   textTranslacoesDias: {
     fontSize: 16,
     color: "#0468BF",
-    fontWeight: '600',
+    fontWeight: "600",
     marginBottom: 12,
   },
-  translacoesDias2:{
+  translacoesDias2: {
     flexDirection: "row",
     alignItems: "center",
     marginBottom: 12,
@@ -209,7 +211,38 @@ const estilos = StyleSheet.create({
     color: "black",
     fontWeight: "black",
   },
-  
+  TranslocoesSaldo: {
+    fontSize: 14,
+    color: "#29702B",
+    fontWeight: "bold",
+  },
+  NavBar: {
+    flexDirection: "row",
+    backgroundColor: "#0468BF",
+    paddingVertical: 10,
+    paddingHorizontal: 10,
+    alignItems: "center",
+    borderRadius: 20,
+    position: "absolute",
+    bottom: -190,
+  },
+  NavBarButton: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  NavBarText: {
+    color: "#FFFFFF",
+    fontSize: 12,
+    marginTop: 4,
+    opacity: 0.7,
+  },
+  NavBarTextHome: {
+    color: "#FFFFFF",
+    fontSize: 12,
+    marginTop: 4,
+    fontWeight: "bold",
+  }
 });
 
 export default estilos;

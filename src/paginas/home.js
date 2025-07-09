@@ -86,20 +86,35 @@ export default function Home() {
             </View>
             <View style={estilos.translacoesInfo}>
               <Text style={estilos.TranslocoesTipo}>Pix recebido:</Text>
-              <Text style={estilos.TranslocoesNome}>Aparecida Raimunda da Silva</Text>
+              <Text style={estilos.TranslocoesNome}>
+                Aparecida Raimunda da Silva
+              </Text>
             </View>
-          </View>
-
-          <View style={estilos.translacoesDias2}>
-            <View style={estilos.translacoesIcon}>
-              <Ionicons name="arrow-down-circle-outline" size={33} color="#BE4343" />
-            </View>
-            <View style={estilos.translacoesInfo}>
-              <Text style={estilos.TranslocoesTipo}>Pix enviado para</Text>
-              <Text style={estilos.TranslocoesNome}>Aparecida Raimunda da Silva</Text>
-            </View>
+            <Text style={estilos.TranslocoesSaldo}>R$ 15,00</Text>
           </View>
         </View>
+      </View>
+
+      <View style={estilos.NavBar}>
+        <TouchableOpacity style={estilos.NavBarButton}>
+          <MaterialIcons name="home" size={30} color="#FFFFFF" />
+          <Text style={estilos.NavBarTextHome}>Home</Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity style={estilos.NavBarButton}>
+          <MaterialIcons name="pix" size={30} color="#FFFFFF" />
+          <Text style={estilos.NavBarText}>Área pix</Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity style={estilos.NavBarButton}>
+          <FontAwesome5 name="book-open" size={27} color="#FFFFFF" />
+          <Text style={estilos.NavBarText}>Área pix</Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity style={estilos.NavBarButton}>
+          <FontAwesome5 name="user-alt" size={20} color="#FFFFFF" />
+          <Text style={estilos.NavBarText}>Área pix</Text>
+        </TouchableOpacity>
       </View>
     </View>
   );

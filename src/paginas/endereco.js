@@ -16,6 +16,9 @@ import Feather from '@expo/vector-icons/Feather';
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 
 export default function Endereco( { navigation }) {
+  // Função para enviar os dados do endereço
+  
+
   return (
     <View style={estilos.container}>
       <Text style={estilos.text}>Endereço</Text>
