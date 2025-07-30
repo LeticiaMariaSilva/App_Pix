@@ -6,7 +6,7 @@ import {
   StyleSheet,
   Pressable,
 } from "react-native";
-import estilos from "../componentes/Estilos";
+import estilos from "../componentes/EstilosCadastro";
 import FontAwesome5 from "@expo/vector-icons/FontAwesome5";
 import MaterialIcons from "@expo/vector-icons/MaterialIcons";
 import FontAwesome from "@expo/vector-icons/FontAwesome";
@@ -84,7 +84,7 @@ console.log("Dados do cadastro:", {
 
 
   return (
-    <View style={estilos.container2}>
+    <View style={estilos.container}>
       <Text style={estilos.text}>Cadastro</Text>
       <View style={estilos.containerInput}>
         <FontAwesome5 name="user-alt" size={18} color="#0468BF" />

@@ -1,55 +1,8 @@
 import { StyleSheet } from "react-native";
 import { Button } from "react-native-paper";
 
+
 const estilos = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#FFFFFF",
-    padding: 20,
-    paddingTop: 100,
-  },
-  text: {
-    fontSize: 30,
-    fontWeight: "bold",
-    color: "#0468BF",
-    textAlign: "center",
-    paddingTop: 100,
-  },
-  input: {
-    height: 50,
-    borderColor: "#0468BF",
-    borderRadius: 20,
-    paddingHorizontal: 10,
-    marginTop: 34,
-    borderWidth: 2,
-  },
-  containerInput: {
-    height: 50,
-    flexDirection: "row",
-    alignItems: "center",
-    borderColor: "#0468BF",
-    borderRadius: 20,
-    paddingHorizontal: 10,
-    marginTop: 26,
-    borderWidth: 2,
-  },
-  button: {
-    width: "100%",
-    height: 50,
-    backgroundColor: "#77ABD9",
-    borderRadius: 20,
-    paddingVertical: 10,
-    paddingHorizontal: 110,
-    marginTop: 30,
-    alignItems: "center",
-    justifyContent: "space-between",
-    flexDirection: "row",
-  },
-  buttonText: {
-    color: "#FFFFFF",
-    fontSize: 20,
-    fontWeight: "bold",
-  },
   ViewHeader: {
     paddingTop: 149,
     backgroundColor: "#0468BF",
@@ -59,29 +12,6 @@ const estilos = StyleSheet.create({
     width: 360,
     boxShadow: "0px 4px 2px rgba(0, 0, 0, 0.1)",
     justifyContent: "space-between",
-  },
-  bolaAzul1: {
-    top: 150,
-    left: -50,
-    width: 100,
-    height: 100,
-    backgroundColor: "#0468BF",
-    borderRadius: 50,
-    opacity: 0.6,
-  },
-  bolaAzul2: {
-    top: 10,
-    right: -220,
-    width: 150,
-    height: 150,
-    backgroundColor: "#0468BF",
-    borderRadius: 100,
-    opacity: 0.6,
-  },
-  container2: {
-    flex: 1,
-    padding: 20,
-    paddingTop: -100,
   },
   user: {
     width: 46,
@@ -95,7 +25,7 @@ const estilos = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
   },
-  icon_eye: {
+   icon_eye: {
     width: 46,
     height: 47,
     position: "absolute",
@@ -109,7 +39,7 @@ const estilos = StyleSheet.create({
     top: 50,
     right: 20,
   },
-  textHeader: {
+   textHeader: {
     position: "absolute",
     top: 109,
     left: 20,
@@ -122,7 +52,7 @@ const estilos = StyleSheet.create({
     flex: 1,
     marginTop: 20,
   },
-  textSaldo: {
+   textSaldo: {
     fontSize: 20,
     color: "#0468BF",
     fontWeight: "bold",
@@ -135,6 +65,13 @@ const estilos = StyleSheet.create({
     color: "#0468BF",
     fontWeight: "bold",
     paddingLeft: 20,
+  },
+  containerBotoes: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-around",
+    paddingHorizontal: 10,
+    marginTop: 10,
   },
   buttonHome: {
     width: 130,
@@ -154,14 +91,7 @@ const estilos = StyleSheet.create({
     fontWeight: "bold",
     marginTop: 2,
   },
-  containerBotoes: {
-    flexDirection: "row",
-    alignItems: "center",
-    justifyContent: "space-around",
-    paddingHorizontal: 10,
-    marginTop: 10,
-  },
-  translacoes: {
+    translacoes: {
     width: 300,
     marginLeft: 30,
     marginTop: 20,
@@ -187,7 +117,7 @@ const estilos = StyleSheet.create({
     fontWeight: "600",
     marginBottom: 12,
   },
-  translacoesDias2: {
+    translacoesDias2: {
     flexDirection: "row",
     alignItems: "center",
     marginBottom: 12,
@@ -243,6 +173,7 @@ const estilos = StyleSheet.create({
     marginTop: 4,
     fontWeight: "bold",
   }
-});
+})
+
 
 export default estilos;

@@ -7,7 +7,7 @@ import {
   Pressable,
   TouchableOpacity,
 } from "react-native";
-import estilos from "../componentes/Estilos";
+import estilos from "../componentes/EstilosHome";
 import FontAwesome5 from "@expo/vector-icons/FontAwesome5";
 import MaterialIcons from "@expo/vector-icons/MaterialIcons";
 import FontAwesome from "@expo/vector-icons/FontAwesome";
@@ -108,12 +108,12 @@ export default function Home() {
 
         <TouchableOpacity style={estilos.NavBarButton}>
           <FontAwesome5 name="book-open" size={27} color="#FFFFFF" />
-          <Text style={estilos.NavBarText}>Área pix</Text>
+          <Text style={estilos.NavBarText}>Histórico</Text>
         </TouchableOpacity>
 
         <TouchableOpacity style={estilos.NavBarButton}>
           <FontAwesome5 name="user-alt" size={20} color="#FFFFFF" />
-          <Text style={estilos.NavBarText}>Área pix</Text>
+          <Text style={estilos.NavBarText}>Perfil</Text>
         </TouchableOpacity>
       </View>
     </View>
