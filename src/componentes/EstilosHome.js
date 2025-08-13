@@ -1,8 +1,8 @@
 import { StyleSheet } from "react-native";
 import { Button } from "react-native-paper";
 
-
 const estilos = StyleSheet.create({
+
   ViewHeader: {
     paddingTop: 149,
     backgroundColor: "#0468BF",
@@ -25,7 +25,7 @@ const estilos = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
   },
-   icon_eye: {
+  icon_eye: {
     width: 46,
     height: 47,
     position: "absolute",
@@ -39,7 +39,7 @@ const estilos = StyleSheet.create({
     top: 50,
     right: 20,
   },
-   textHeader: {
+  textHeader: {
     position: "absolute",
     top: 109,
     left: 20,
@@ -52,7 +52,7 @@ const estilos = StyleSheet.create({
     flex: 1,
     marginTop: 20,
   },
-   textSaldo: {
+  textSaldo: {
     fontSize: 20,
     color: "#0468BF",
     fontWeight: "bold",
@@ -61,7 +61,7 @@ const estilos = StyleSheet.create({
     opacity: 0.8,
   },
   textValor: {
-    fontSize: 30,
+    fontSize: 22,
     color: "#0468BF",
     fontWeight: "bold",
     paddingLeft: 20,
@@ -91,7 +91,7 @@ const estilos = StyleSheet.create({
     fontWeight: "bold",
     marginTop: 2,
   },
-    translacoes: {
+  translacoes: {
     width: 300,
     marginLeft: 30,
     marginTop: 20,
@@ -117,7 +117,7 @@ const estilos = StyleSheet.create({
     fontWeight: "600",
     marginBottom: 12,
   },
-    translacoesDias2: {
+  translacoesDias2: {
     flexDirection: "row",
     alignItems: "center",
     marginBottom: 12,
@@ -154,7 +154,7 @@ const estilos = StyleSheet.create({
     alignItems: "center",
     borderRadius: 20,
     position: "absolute",
-    bottom: -190,
+    bottom: -140,
   },
   NavBarButton: {
     flex: 1,
@@ -172,8 +172,7 @@ const estilos = StyleSheet.create({
     fontSize: 12,
     marginTop: 4,
     fontWeight: "bold",
-  }
-})
-
+  },
+});
 
 export default estilos;

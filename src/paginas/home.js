@@ -34,10 +34,8 @@ export default function Home() {
         <Text style={estilos.textHeader}> Olá, User</Text>
       </View>
 
-      <View style={estilos.containerSaldo}>
-        <Text style={estilos.textSaldo}>Saldo em conta:</Text>
-        <Text style={estilos.textValor}>R$ 1,00</Text>
-      </View>
+      <Text style={estilos.textSaldo}>Saldo em conta:</Text>
+      <Text style={estilos.textValor}>R$ 1,00</Text>
 
       <View style={estilos.containerBotoes}>
         <TouchableOpacity style={estilos.containerBotoes}>
